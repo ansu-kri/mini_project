@@ -1,4 +1,4 @@
 # mini_project
 
 <h1>Calculator</h1>
-<img src="https://github.com/ansu-kri/mini_project/blob/main/Calculator/img/Screenshot%20(1229).png"></img>
+<img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"></img>
