@@ -1,0 +1,68 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+    color:#fff;
+    text-align: center;
+}
+#container{
+    background-color: #fff;
+    height:auto;
+    width:400px;
+    border:0px solid red;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 0px;
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+#display{
+    width:90%;
+    height:60px;
+    border:0px solid blue;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#keyboard{
+    width:90%;
+    height:auto;
+    border: 0px solid red;
+    margin: auto;
+    margin-left: 31px;
+    margin-top: 20px;
+    display: grid;
+    border-radius: 10px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:20px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+}
+#keyboard>div{
+    border:0px solid red;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#c{
+    background-color: red;
+    color: white;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+#display{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
