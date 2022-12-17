@@ -9,9 +9,9 @@ body{
 background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
 
 }
-h1{
-    text-align: center;
-    margin-top: 20px;
+a{
+    margin-left: 600px;
+    margin-top: 40px;
     font-size: 40px;
     font-weight: 100;
     color: #fff;
@@ -29,6 +29,7 @@ h4{
     font-size: 25px;
     font-weight: 100;
     color:#ffff;
+    background-color: #784BA0;
 }
 input {
     margin: auto;
@@ -51,4 +52,11 @@ input {
   }
   button:hover{
     background-color: #2B86C5;
+  }
+  #result{
+    width: 50%;
+    height: 70px;
+    border: 0px solid red;
+    margin: auto;
+    margin-top: 20px;
   }
